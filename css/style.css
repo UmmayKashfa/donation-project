@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+primary-color{
+    color:#fb5656;
+}
+.btn-primary{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #fb5656;
+    padding: 18px 26px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+}
+.description{
+    color: #a8a8a8;
+    font-size: 26px;
+    margin: 30px 0;
+    text-align: center;
+}
+.header{
+    background-image: url('../images/donation6.jpg'),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-blend-mode: overlay;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* header style */
+.header-description{
+    text-align: center
+}
+.title{
+    font-weight: 700;
+    font-size: 70px;
+    color: #ffffff;
+    
+}
+.header-description .description{
+    color: #ffffff;
+}
+
+/* donate-today style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-today{
+    text-align: center;
+}
+.donate{
+    display: flex;
+    justify-content: space-around;
+}
+.donate-title{
+    background-color: #f1f1f1;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    font-size: 30px;
+    padding: 50px 50px;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 5px;
+    color: #878787;
+}
+.donate-active-title{
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    font-size: 30px;
+    padding: 50px 50px;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 5px;
+    border: 3px solid #fb5656;
+    color: #fb5656;
+    background-color: #fae4e4;
+    font-weight: 900;
+}
+.donate-taka{
+    color: #acabab;
+    font-size: 22px;
+    margin: 50px 0;
+
+}
+.border{
+    border: 1px solid #e1e1e1;
+    margin: 10px 0 50px;
+}
+/* donate plan style */
+.donate-plan-description{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 40px 0;
+}
+.plan-description{
+    background-color: rgb(252, 250, 242);
+    padding: 50px 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px 60px rgb(0,0,0,0.06);
+}
+.plan-description .section-title{
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 0;
+}
+.plan-description .description{
+    font-size: 18px;
+    text-align: left;
+}
+.active1{
+   background-color: rgb(255, 247, 252); 
+}
+.active2{
+    background-color: rgb(244, 255, 255);
+}
+/* Donation style */
+.donation{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 150px 0;
+}
+.donation img,.survive img{
+    width: 50%;
+    border-radius: 5px;
+}
+.donation-description .section-title{
+    text-align: left;
+}
+.donation-description .description{
+    text-align: left;
+}
+
+/* survive style */
+.survive{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 100px 0;
+}
+.survive-description .section-title{
+    text-align: left;
+}
+.survive-description .description{
+    text-align: left;
+}
+/* update style */
+.update{
+    margin-top: 30px;
+}
+.update-info{
+    text-align: center;
+    background-color: rgb(253, 248, 231);
+    padding: 70px 0px;
+    margin: 0 160px;
+    margin-top: 20px;
+}
+.update-info input{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #d5d5d5;
+    padding: 14px 26px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+
+}
+.update-info .btn-primary{
+    border-radius: 0;
+    margin-left: -8px;
+    padding: 14px 26px;
+}
